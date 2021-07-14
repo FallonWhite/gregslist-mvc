@@ -35,7 +35,7 @@ class AppState extends EventEmitter {
       year: 1876,
       price: 99900,
       description: 'Truly amazing Mansard style mansion with gothic influences.',
-      imgUrl: ''
+      imgUrl: 'https://www.oldhousedreams.com/wp-content/uploads/2021/07/04-615columbiastny.jpg'
     }),
     new House({
       state: 'North Carolina',
@@ -45,7 +45,7 @@ class AppState extends EventEmitter {
       year: 1920,
       price: 110000,
       description: 'The Butler Nichols House is on the national Register of Historic Places',
-      imgUrl: ''
+      imgUrl: 'https://ap.rdcpix.com/7d6c9ef3e76bebe4b689720841a14b46l-m3597165229od-w1024_h768.webp'
     }),
     new House({
       state: 'Ohio',
@@ -55,7 +55,7 @@ class AppState extends EventEmitter {
       year: 1868,
       price: 75000,
       description: 'Own a little piece of history -"The Cherry House"',
-      imgUrl: ''
+      imgUrl: 'https://ssl.cdn-redfin.com/photo/160/bigphoto/876/221025876_0.jpg'
     }),
     new House({
       state: 'Iowa',
@@ -65,7 +65,7 @@ class AppState extends EventEmitter {
       year: 1900,
       price: 120000,
       description: 'Historic Frank G. Ray House. 3-Story Queen Anne mansion and Carriage House.',
-      imgUrl: ''
+      imgUrl: 'https://ap.rdcpix.com/7bf8558604e7089763e38d5af88d5b1dl-m2343569212od-w1024_h768.webp'
     })
   ]
 }
