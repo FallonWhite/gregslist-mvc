@@ -72,6 +72,53 @@
                 </div>
             </div> -->
         </div>
+
+        <div class="row">
+            <div class="col mt-5">
+                <form class="d-flex" onsubmit="app.housesController.createHouse()">
+                    <div class="form-group">
+                        <label for="state">State</label>
+                        <input type="text" name="state" id="state" class="form-control" placeholder="state..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city" class="form-control" placeholder="city...">
+                    </div>
+                    <div class="form-group">
+                        <label for="bedroom">Bedroom</label>
+                        <input type="number" name="bedroom" id="bedroom" class="form-control" placeholder="bedroom..."
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bathroom">Bathroom</label>
+                        <input type="number" name="bathroom" id="bathroom" class="form-control"
+                            placeholder="bathroom...">
+                    </div>
+                    <div class="form-group">
+                        <label for="year">Year</label>
+                        <input type="number" name="year" id="year" class="form-control" placeholder="Year..." min="1800"
+                            max="2021">
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Price</label>
+                        <input type="number" name="price" id="price" class="form-control" placeholder="Price..."
+                            required min="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="imgUrl">Image Url</label>
+                        <input type="text" name="imgUrl" id="imgUrl" class="form-control" placeholder="Url...">
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <input type="text" name="description" id="description" class="form-control"
+                            placeholder="Description..." maxlength="240">
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <button type="submit" class="btn btn-outline-success">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </main>
     <footer class="bg-dark text-light">
         <div class="text-center">
