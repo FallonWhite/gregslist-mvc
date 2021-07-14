@@ -30,8 +30,8 @@ class AppState extends EventEmitter {
     new House({
       state: 'New York',
       city: 'Elmira',
-      bedrooms: 10,
-      bathrooms: 4,
+      bedrooms: 10 + ' Bed',
+      bathrooms: 4 + ' Bath',
       year: 1876,
       price: 99900,
       description: 'Truly amazing Mansard style mansion with gothic influences.',
@@ -40,8 +40,8 @@ class AppState extends EventEmitter {
     new House({
       state: 'North Carolina',
       city: 'Windsor',
-      bedrooms: 3,
-      bathrooms: 2,
+      bedrooms: 3 + ' Bed',
+      bathrooms: 2 + ' Bath',
       year: 1920,
       price: 110000,
       description: 'The Butler Nichols House is on the national Register of Historic Places',
@@ -50,8 +50,8 @@ class AppState extends EventEmitter {
     new House({
       state: 'Ohio',
       city: 'Washington Court House',
-      bedrooms: 4,
-      bathrooms: 3.5,
+      bedrooms: 4 + ' Bed',
+      bathrooms: 3.5 + ' Bath',
       year: 1868,
       price: 75000,
       description: 'Own a little piece of history -"The Cherry House"',
@@ -60,8 +60,8 @@ class AppState extends EventEmitter {
     new House({
       state: 'Iowa',
       city: 'Vinton',
-      bedrooms: 4,
-      bathrooms: 1,
+      bedrooms: 4 + ' Bed',
+      bathrooms: 1 + ' Bath',
       year: 1900,
       price: 120000,
       description: 'Historic Frank G. Ray House. 3-Story Queen Anne mansion and Carriage House.',
