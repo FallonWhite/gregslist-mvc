@@ -16,13 +16,13 @@ export default class House {
           <img src="${this.imgUrl}" class="w-100" alt="${this.state} ${this.city} house image">
           <div class="p-3">
               <div class="text-center">
-                  <p><b>${this.year} - ${this.bedrooms} - ${this.bathrooms}</b></p>
-              </div>
+                  <p><b>${this.city}, ${this.state}<br>${this.bedrooms + " Bed"} - ${this.bathrooms + " Bath"}<br>${"Built " + this.year}</b></p >
+              </div >
               <p>${this.description}</p>
               <p><em>$${this.price}</em></p>
-          </div>
-      </div>
-    </div>
-    `
+          </div >
+      </div >
+    </div >
+  `
   }
 }
