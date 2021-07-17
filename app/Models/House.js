@@ -12,7 +12,7 @@ export default class House {
   get Template() {
     return `
     <div class="col-md-3 col-sm-2 my-3">
-      <div class="car bg-light shadow">
+      <div class="house bg-light shadow">
           <img src="${this.imgUrl}" class="w-100" alt="${this.state} ${this.city} house image">
           <div class="p-3">
               <div class="text-center">
