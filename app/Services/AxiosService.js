@@ -1,3 +1,3 @@
-export const api = axios.Create({
+export const api = axios.create({
   baseURL
 })
